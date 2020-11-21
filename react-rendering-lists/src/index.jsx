@@ -10,7 +10,7 @@ const pokedex = [
   ];
 
 const pokemonList = pokedex.map((pokemon) => 
-    <li key={pokemon.name}>
+    <li key={pokemon.number}>
         {pokemon.name}
     </li>
 );
