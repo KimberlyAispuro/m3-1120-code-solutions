@@ -1,0 +1,29 @@
+.switchButton{
+    -webkit-appearance:none;
+    outline:none;
+    width:90px;
+    height:40px;
+    background-color:darkmagenta;
+    position:relative;
+    border-radius:25px;
+    border:2px solid navy;
+  }
+  
+  .switchButton:before{
+    position:absolute;
+    content:"";
+    top:0;
+    left:0;
+    height:36px;
+    width:44px;
+    background-color:navy;
+    border-radius:25px;
+  }
+  
+  input:checked{
+    background-color:orange;
+  }
+  
+  input:checked:before{
+    transform:translate(100%);
+  }
