@@ -15,8 +15,7 @@ export default class ToggleSwitch extends React.Component{
     render(){
         return(
             <div>
-                <input type ={'checkbox'} className={'switchButton'} checked={this.state.handleClick} onChange={this.handleClick}>
-                </input>
+                <input type ={'checkbox'} className={'switchButton'} checked={this.state.handleClick} onChange={this.handleClick}/>
             </div>
         );
     }
