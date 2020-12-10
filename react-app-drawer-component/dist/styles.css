@@ -1,0 +1,49 @@
+html,body{
+    height:100%;
+}
+
+*{
+    margin:0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.root{
+    background-color: gray;
+}
+
+.menu-container{
+    width:18%;
+    height: 100vh;
+    background-color:white;
+    border: solid black 3px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left:50px;
+    padding-top:15px;
+
+}
+
+li{
+    margin-top:18px;
+}
+
+.icon-container{
+    background-color: white;
+    margin-top:10px;
+    margin-left:15px;
+}
+
+i{
+    width: 35px;
+    height: 5px;
+    font-size:28px;
+    color: black;
+    margin:2px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
